@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animated Stopwatch</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="background-animation"></div>
+
+  <div class="container">
+    <img src="https://images.unsplash.com/photo-1581447109205-4f282a7aeb0d?auto=format&fit=crop&w=800&q=80" 
+         alt="Stopwatch" 
+         class="stopwatch-img" />
+
+    <h1>Stopwatch</h1>
+
+    <div class="display" id="time">00:00:00.000</div>
+
+    <div class="controls">
+      <button id="startPauseBtn">Start</button>
+      <button id="lapBtn" disabled>Lap</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <ul class="laps" id="laps"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
